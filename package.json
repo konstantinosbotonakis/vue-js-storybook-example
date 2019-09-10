@@ -1,0 +1,47 @@
+{
+  "name": "vue-stories",
+  "description": "vue.js storybook example",
+  "version": "1.0.0",
+  "author": "Konstantinos Botonakis",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "extract-text-webpack-plugin": "^3.0.2",
+    "serialize-javascript": "^1.9.1",
+    "vue": "^2.6.10",
+    "vue-storybook": "^0.3.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.4.12",
+    "@storybook/addon-knobs": "^3.4.12",
+    "@storybook/addon-links": "^3.4.12",
+    "@storybook/addon-notes": "^3.4.12",
+    "@storybook/addons": "^3.4.12",
+    "@storybook/vue": "^3.4.12",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-preset-vue": "^2.0.2",
+    "cross-env": "^5.2.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.4",
+    "loader-utils": "^1.2.3",
+    "raw-loader": "^0.5.1",
+    "vue-loader": "^13.7.3",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.5"
+  }
+}
