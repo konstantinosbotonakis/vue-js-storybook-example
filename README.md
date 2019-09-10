@@ -26,3 +26,7 @@ yarn dev
 # build for production with minification
 yarn build
 ```
+
+
+## Screenshot
+![Screenshot 1](https://raw.githubusercontent.com/konstantinosbotonakis/vue-js-storybook-example/master/vue-js-storybook-screenshot.jpg)
