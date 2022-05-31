@@ -16,6 +16,7 @@
     "js-yaml": "3.13.1",
     "node-forge": ">=1.3.0",
     "postcss": "^8.4.14",
+    "prismjs": "1.27",
     "serialize-javascript": "^6.0.0",
     "vue": "^2.6.10",
     "vue-storybook": "^0.3.0"
